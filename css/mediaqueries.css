@@ -1,0 +1,69 @@
+/* adaptacion a pantallas mas PEQUEÑAS */
+
+/* punto de ruptura en 920px */
+
+@media screen and (max-width:920px){
+    
+    /* columnas */
+    .ancho50{
+        flex-basis:100%;
+    }
+
+    .anocho50.noWrap{
+        flex-wrap: wrap;
+    }
+
+    /* header y menú navegación */
+    .iconoMenu{
+        display:block;
+    }
+
+    .header-sup nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .header-sup nav ul{
+        display:none;
+    }
+
+    .header-sup nav li{
+       margin-bottom: 8px;
+    }
+
+    .header-sup nav.mostrarMenu ul{
+        display:block;
+    }
+    
+    .header-sup{
+        background-color: #f3363a;
+        position: fixed;
+        top:0;
+        left:0;
+        margin:0;
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .textoCabecera{
+        margin: 120px 0 0 0;
+    }
+
+    /* caracteristicas */
+
+    .caracteristicas section.filaFlex{
+        justify-content: center;
+    }
+
+    .icono img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+
+}/* fin media query */
