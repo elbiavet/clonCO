@@ -1,4 +1,3 @@
-/*  ---------- ESTILOS PARA SITIO WEB CAFÉ OSLO ---------------- */
 
 /* ---------ESTILOS GENERALES------------- */
 
@@ -8,15 +7,13 @@
  
  body{
      font-family: 'Open Sans', sans-serif;
-     font-size:16px;
+     font-size: 16px;
      background: linear-gradient(#332525, #523e3e);
  }
  
  h1,h2{
-     margin:0;
-     padding: 0;
-     line-height: 1.2em;
      text-transform: uppercase;
+     margin-bottom: 15px;
  }
  
  p{
@@ -29,12 +26,6 @@
  
  a{
      text-decoration: none;
- }
-
- .contenedorGlobal{
-    max-width: 1250px;
-    margin:0 auto;
-    background-color: #FFF;
  }
  
  .separador{
@@ -94,49 +85,29 @@
      flex-wrap: wrap;
  }
  
- .ancho50{
-     flex-basis: 50%;
- }
- 
- .ancho100{
-     flex-basis: 100%;
- }
- 
  .noWrap{
      flex-wrap: nowrap;
  }
  
+ .text-size{
+    font-size: 1.5em;
+ }
  
  /* -------------CABECERA PRINCIPAL ----------- */
  
  /* header */
  .header-principal{
-     padding: 50px 60px;
-     background-color: blueviolet;
      background-image: url('../imagenes/fondo1.jpg');
      background-size: cover;
      background-position: center center;
- 
      color:#FFF;
+     
  }
  
  /* zona superior del header*/
- .header-sup{
-     margin:0 50px;
- }
-
- .iconoMenu{
-    display:none;
-    cursor: pointer;
- }
- 
- .header-principal nav li{
-     margin-right: 15px;
- }
  
  .header-principal nav a{
      color:#FFF;
-     font-weight: 800;
      font-size: 0.9em;
      text-transform: uppercase;
  }
@@ -144,20 +115,9 @@
  .header-principal nav a:hover{
      color: #ee7276;
  }
- 
- /* zona inferior del header con el texto */
- .textoCabecera{
-     margin: 50px 90px 0 90px;
-     text-align: center;
- }
- 
- .textoCabecera h1{
-     font-size: 3em;
- }
- 
+
  /* ---------DESAYUNAR--------- */
  .desayunar{
-     padding: 70px 50px;
      text-align: center;
      color:#FFF;
      background-image: url('../imagenes/fondo2.jpg');
@@ -165,27 +125,12 @@
      background-position: 20% 0%;
  }
  
- .desayunar h2{
-     font-size: 3em;
- }
+
  
  /* -------CARACTERÍSTICAS --------- */
  
- .caracteristicas{
-     margin:32px 64px;
- }
  
- /* .caracteristicas section > div{
-     border:4px solid green;
- }
- 
- .caracteristicas section{
-     border:8px solid blue;
- } */
- 
- .textoCaracteristicas{
-     margin:32px 32px 0 16px;
- }
+
  
  .icono img{
      width: 130px;
@@ -200,4 +145,3 @@
      color:#ababab;
  }
 
- /* aunque seria correcto meter aqui media queries mejor hacer un nuevo archivo */
